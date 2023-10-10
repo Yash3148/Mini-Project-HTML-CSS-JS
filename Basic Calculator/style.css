@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Jura:wght@300&family=Montserrat:wght@300&display=swap');
+
+
+*{
+    font-family: 'Jura'
+}
+
+body{
+    background-color: rgb(188, 125, 135);
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mybtns{
+    padding: 20px;
+}
+
+.mybtns button{
+    font-weight: bold;
+    padding: 5px;
+}
+
+input{
+    margin: 4px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.displayBox {
+    height: 100px;
+    width: 250px;
+    margin: 10px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayBox h3 {
+    color: white;
+    font-size: 2rem;
+}
