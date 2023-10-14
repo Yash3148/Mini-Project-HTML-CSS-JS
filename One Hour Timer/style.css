@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Jura:wght@300&family=Montserrat:wght@300&display=swap');
+
+*{
+    font-family: 'Jura', 'Arial';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238,243,175);
+}
+
+.container {
+    background: rgb(34,34,34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+body h1{
+    color: #fff;
+}
+
+#title{
+    font-size: 1.8rem;
+}
+
+#start, #stop, #reset {
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    background-color: sandybrown;
+}
+
+#reset{
+    text-align: center;
+}
+
