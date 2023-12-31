@@ -11,10 +11,23 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(238,243,175);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('https://static.vecteezy.com/system/resources/previews/008/661/764/original/sand-timer-line-pop-art-potrait-logo-colorful-design-with-dark-background-abstract-illustration-isolated-black-background-for-t-shirt-poster-clothing-merch-apparel-vector.jpg') no-repeat center center fixed;
+    background-size: 1900px;
+    
+    
+    /* background-position: center center; Adjust as needed */
+    
+}
+.name{
+    /* background-color:black; */
+    color: rgb(239, 8, 8);
 }
 
 .container {
-    background: rgb(34,34,34);
+    background: rgb(14, 41, 86);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +37,7 @@ body {
 }
 
 body h1{
-    color: #fff;
+    color: #dd1536;
 }
 
 #title{
@@ -39,7 +52,7 @@ body h1{
 }
 
 #start:hover, #stop:hover, #reset:hover {
-    background-color: sandybrown;
+    background-color: rgb(239, 117, 194);
 }
 
 #reset{
